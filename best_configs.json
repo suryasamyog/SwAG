@@ -1,0 +1,2101 @@
+{
+    "cora": {
+      "d": {
+        "value": 8
+      },
+      "lr": {
+        "value": 0.01
+      },
+      "eps": {
+        "value": 0.0217044132553173
+      },
+      "cuda": {
+        "value": 0
+      },
+      "norm": {
+        "value": "group"
+      },
+      "orth": {
+        "value": "householder"
+      },
+      "seed": {
+        "value": 42
+      },
+      "temp": {
+        "value": 0.17323243113056885
+      },
+      "alpha": {
+        "value": 0.5
+      },
+      "model": {
+        "value": "DiagSheaf"
+      },
+      "_wandb": {
+        "value": {
+          "m": [],
+          "t": {
+            "1": [
+              1,
+              5,
+              53,
+              77
+            ],
+            "2": [
+              1,
+              5,
+              53,
+              77
+            ],
+            "3": [
+              2,
+              14,
+              16,
+              61
+            ],
+            "4": "3.12.13",
+            "5": "0.27.0",
+            "10": [
+              19
+            ],
+            "12": "0.27.0",
+            "13": "linux-x86_64"
+          },
+          "cli_version": "0.27.0",
+          "python_version": "3.12.13"
+        }
+      },
+      "add_hp": {
+        "value": false
+      },
+      "add_lp": {
+        "value": false
+      },
+      "epochs": {
+        "value": 1000
+      },
+      "layers": {
+        "value": 1
+      },
+      "linear": {
+        "value": false
+      },
+      "dataset": {
+        "value": "cora"
+      },
+      "dropout": {
+        "value": 0.25
+      },
+      "eval_lr": {
+        "value": 0.05
+      },
+      "sk_iter": {
+        "value": 4
+      },
+      "use_act": {
+        "value": true
+      },
+      "patience": {
+        "value": 50
+      },
+      "proj_dim": {
+        "value": 64
+      },
+      "sheaf_lr": {
+        "value": 0.003
+      },
+      "use_proj": {
+        "value": true
+      },
+      "drop_prob": {
+        "value": 0.2
+      },
+      "lambda_mi": {
+        "value": 0
+      },
+      "loss_type": {
+        "value": "swav"
+      },
+      "quot_temp": {
+        "value": 0.1
+      },
+      "sheaf_act": {
+        "value": "tanh"
+      },
+      "eval_steps": {
+        "value": 2000
+      },
+      "normalised": {
+        "value": true
+      },
+      "quot_weight": {
+        "value": 0.001
+      },
+      "run_visuals": {
+        "value": false
+      },
+      "sheaf_decay": {
+        "value": 0.05
+      },
+      "edge_weights": {
+        "value": true
+      },
+      "eval_on_proj": {
+        "value": false
+      },
+      "lambda_ortho": {
+        "value": 0
+      },
+      "left_weights": {
+        "value": true
+      },
+      "markov_times": {
+        "value": [
+          1,
+          2,
+          4,
+          8
+        ]
+      },
+      "restore_best": {
+        "value": true
+      },
+      "weight_decay": {
+        "value": 0.0005
+      },
+      "deterministic": {
+        "value": false
+      },
+      "eval_patience": {
+        "value": 100
+      },
+      "input_dropout": {
+        "value": 0.5
+      },
+      "lambda_map_id": {
+        "value": 0
+      },
+      "markov_weight": {
+        "value": 0.3879177381062694
+      },
+      "right_weights": {
+        "value": true
+      },
+      "run_mid_probe": {
+        "value": false
+      },
+      "second_linear": {
+        "value": false
+      },
+      "view_strategy": {
+        "value": "post_sheaf_transport"
+      },
+      "checkpoint_dir": {
+        "value": "pkl"
+      },
+      "deg_normalised": {
+        "value": false
+      },
+      "detach_summary": {
+        "value": false
+      },
+      "num_prototypes": {
+        "value": 128
+      },
+      "quot_normalize": {
+        "value": "fro"
+      },
+      "sparse_learner": {
+        "value": false
+      },
+      "target_rep_dim": {
+        "value": null
+      },
+      "asymmetric_mode": {
+        "value": "symmetric"
+      },
+      "early_stop_loss": {
+        "value": true
+      },
+      "hidden_channels": {
+        "value": 64
+      },
+      "markov_adj_norm": {
+        "value": "row"
+      },
+      "proj_hidden_dim": {
+        "value": 512
+      },
+      "quot_symmetrize": {
+        "value": true
+      },
+      "view_align_temp": {
+        "value": 0.07
+      },
+      "disable_sinkhorn": {
+        "value": false
+      },
+      "quot_remove_diag": {
+        "value": false
+      },
+      "early_stop_warmup": {
+        "value": 100
+      },
+      "eval_weight_decay": {
+        "value": 0.0001
+      },
+      "markov_self_loops": {
+        "value": true
+      },
+      "run_theory_audits": {
+        "value": false
+      },
+      "sheaf_sinkhorn_mu": {
+        "value": 0.1
+      },
+      "view_align_weight": {
+        "value": 0
+      },
+      "markov_target_only": {
+        "value": false
+      },
+      "swav_target_source": {
+        "value": "local"
+      },
+      "use_sheaf_sinkhorn": {
+        "value": false
+      },
+      "use_view_alignment": {
+        "value": false
+      },
+      "prototype_kappa_max": {
+        "value": 30
+      },
+      "prototype_kappa_min": {
+        "value": 0.1
+      },
+      "prototype_use_prior": {
+        "value": false
+      },
+      "run_expensive_evals": {
+        "value": false
+      },
+      "sheaf_sinkhorn_mode": {
+        "value": "graph"
+      },
+      "swav_reverse_weight": {
+        "value": 0.168562972557929
+      },
+      "view_align_momentum": {
+        "value": 0.999
+      },
+      "early_stop_min_delta": {
+        "value": 0.0001
+      },
+      "markov_time_sampling": {
+        "value": "none"
+      },
+      "proto_transport_temp": {
+        "value": 0.1
+      },
+      "prototype_kappa_init": {
+        "value": 1
+      },
+      "prototype_score_type": {
+        "value": "linear"
+      },
+      "sheaf_sinkhorn_iters": {
+        "value": 3
+      },
+      "use_markov_stability": {
+        "value": true
+      },
+      "proto_connection_temp": {
+        "value": 0.1
+      },
+      "wide_feature_ablation": {
+        "value": false
+      },
+      "markov_fast_cumulative": {
+        "value": true
+      },
+      "markov_update_interval": {
+        "value": 1
+      },
+      "proto_transport_detach": {
+        "value": true
+      },
+      "quot_assignment_source": {
+        "value": "local"
+      },
+      "markov_interval_rescale": {
+        "value": true
+      },
+      "proto_connection_weight": {
+        "value": 0
+      },
+      "sheaf_sinkhorn_adj_norm": {
+        "value": "row"
+      },
+      "swav_target_mixed_alpha": {
+        "value": 0.5
+      },
+      "sheaf_sinkhorn_self_loops": {
+        "value": true
+      },
+      "view_align_num_prototypes": {
+        "value": 12
+      },
+      "no_markov_interval_rescale": {
+        "value": false
+      },
+      "use_proto_connection_laplacian": {
+        "value": false
+      },
+      "proto_connection_assignment_temp": {
+        "value": 0.1
+      },
+      "proto_connection_detach_transport": {
+        "value": true
+      }
+ },
+
+    "roman-empire": {
+          "d": {
+            "value": 8
+          },
+          "lr": {
+            "value": 0.001
+          },
+          "eps": {
+            "value": 0.3962366689348782
+          },
+          "cuda": {
+            "value": 0
+          },
+          "norm": {
+            "value": "group"
+          },
+          "orth": {
+            "value": "householder"
+          },
+          "seed": {
+            "value": 42
+          },
+          "temp": {
+            "value": 0.33550977955243144
+          },
+          "alpha": {
+            "value": 0.5
+          },
+          "model": {
+            "value": "DiagSheaf"
+          },
+          "_wandb": {
+            "value": {
+              "m": [],
+              "t": {
+                "1": [
+                  1,
+                  5,
+                  53,
+                  77
+                ],
+                "2": [
+                  1,
+                  5,
+                  53,
+                  77
+                ],
+                "3": [
+                  2,
+                  14,
+                  16,
+                  61
+                ],
+                "4": "3.12.13",
+                "5": "0.27.0",
+                "10": [
+                  19
+                ],
+                "12": "0.27.0",
+                "13": "linux-x86_64"
+              },
+              "cli_version": "0.27.0",
+              "python_version": "3.12.13"
+            }
+          },
+          "add_hp": {
+            "value": false
+          },
+          "add_lp": {
+            "value": false
+          },
+          "epochs": {
+            "value": 1000
+          },
+          "layers": {
+            "value": 4
+          },
+          "linear": {
+            "value": false
+          },
+          "dataset": {
+            "value": "roman-empire"
+          },
+          "dropout": {
+            "value": 0.25
+          },
+          "eval_lr": {
+            "value": 0.05
+          },
+          "sk_iter": {
+            "value": 4
+          },
+          "use_act": {
+            "value": true
+          },
+          "patience": {
+            "value": 50
+          },
+          "proj_dim": {
+            "value": 32
+          },
+          "sheaf_lr": {
+            "value": 0.05
+          },
+          "use_proj": {
+            "value": true
+          },
+          "drop_prob": {
+            "value": 0.2
+          },
+          "lambda_mi": {
+            "value": 0
+          },
+          "loss_type": {
+            "value": "swav"
+          },
+          "quot_temp": {
+            "value": 0.1
+          },
+          "sheaf_act": {
+            "value": "tanh"
+          },
+          "eval_steps": {
+            "value": 2000
+          },
+          "normalised": {
+            "value": true
+          },
+          "quot_weight": {
+            "value": 0.001
+          },
+          "run_visuals": {
+            "value": false
+          },
+          "sheaf_decay": {
+            "value": 0.0003
+          },
+          "edge_weights": {
+            "value": true
+          },
+          "eval_on_proj": {
+            "value": false
+          },
+          "lambda_ortho": {
+            "value": 0
+          },
+          "left_weights": {
+            "value": true
+          },
+          "markov_times": {
+            "value": [
+              1,
+              2
+            ]
+          },
+          "restore_best": {
+            "value": true
+          },
+          "weight_decay": {
+            "value": 0.001
+          },
+          "deterministic": {
+            "value": false
+          },
+          "eval_patience": {
+            "value": 100
+          },
+          "input_dropout": {
+            "value": 0.4
+          },
+          "lambda_map_id": {
+            "value": 0
+          },
+          "markov_weight": {
+            "value": 0.1961683637207483
+          },
+          "right_weights": {
+            "value": true
+          },
+          "run_mid_probe": {
+            "value": false
+          },
+          "second_linear": {
+            "value": false
+          },
+          "view_strategy": {
+            "value": "post_sheaf_transport"
+          },
+          "checkpoint_dir": {
+            "value": "pkl"
+          },
+          "deg_normalised": {
+            "value": false
+          },
+          "detach_summary": {
+            "value": false
+          },
+          "num_prototypes": {
+            "value": 64
+          },
+          "quot_normalize": {
+            "value": "fro"
+          },
+          "sparse_learner": {
+            "value": false
+          },
+          "target_rep_dim": {
+            "value": null
+          },
+          "asymmetric_mode": {
+            "value": "symmetric"
+          },
+          "early_stop_loss": {
+            "value": true
+          },
+          "hidden_channels": {
+            "value": 64
+          },
+          "markov_adj_norm": {
+            "value": "row"
+          },
+          "proj_hidden_dim": {
+            "value": 256
+          },
+          "quot_symmetrize": {
+            "value": true
+          },
+          "view_align_temp": {
+            "value": 0.07
+          },
+          "disable_sinkhorn": {
+            "value": false
+          },
+          "quot_remove_diag": {
+            "value": false
+          },
+          "early_stop_warmup": {
+            "value": 100
+          },
+          "eval_weight_decay": {
+            "value": 0.0001
+          },
+          "markov_self_loops": {
+            "value": true
+          },
+          "run_theory_audits": {
+            "value": false
+          },
+          "sheaf_sinkhorn_mu": {
+            "value": 0.1
+          },
+          "view_align_weight": {
+            "value": 0
+          },
+          "markov_target_only": {
+            "value": false
+          },
+          "swav_target_source": {
+            "value": "local"
+          },
+          "use_sheaf_sinkhorn": {
+            "value": false
+          },
+          "use_view_alignment": {
+            "value": false
+          },
+          "prototype_kappa_max": {
+            "value": 30
+          },
+          "prototype_kappa_min": {
+            "value": 0.1
+          },
+          "prototype_use_prior": {
+            "value": false
+          },
+          "run_expensive_evals": {
+            "value": false
+          },
+          "sheaf_sinkhorn_mode": {
+            "value": "graph"
+          },
+          "swav_reverse_weight": {
+            "value": 0.1950687411369109
+          },
+          "view_align_momentum": {
+            "value": 0.999
+          },
+          "early_stop_min_delta": {
+            "value": 0.0001
+          },
+          "markov_time_sampling": {
+            "value": "none"
+          },
+          "proto_transport_temp": {
+            "value": 0.1
+          },
+          "prototype_kappa_init": {
+            "value": 1
+          },
+          "prototype_score_type": {
+            "value": "linear"
+          },
+          "sheaf_sinkhorn_iters": {
+            "value": 3
+          },
+          "use_markov_stability": {
+            "value": true
+          },
+          "proto_connection_temp": {
+            "value": 0.1
+          },
+          "wide_feature_ablation": {
+            "value": false
+          },
+          "markov_fast_cumulative": {
+            "value": true
+          },
+          "markov_update_interval": {
+            "value": 1
+          },
+          "proto_transport_detach": {
+            "value": true
+          },
+          "quot_assignment_source": {
+            "value": "local"
+          },
+          "markov_interval_rescale": {
+            "value": true
+          },
+          "proto_connection_weight": {
+            "value": 0
+          },
+          "sheaf_sinkhorn_adj_norm": {
+            "value": "row"
+          },
+          "swav_target_mixed_alpha": {
+            "value": 0.5
+          },
+          "sheaf_sinkhorn_self_loops": {
+            "value": true
+          },
+          "view_align_num_prototypes": {
+            "value": 12
+          },
+          "no_markov_interval_rescale": {
+            "value": false
+          },
+          "use_proto_connection_laplacian": {
+            "value": false
+          },
+          "proto_connection_assignment_temp": {
+            "value": 0.1
+          },
+          "proto_connection_detach_transport": {
+            "value": true
+          }
+    },
+    "citeseer": {
+          "d": {
+            "value": 8
+          },
+          "lr": {
+            "value": 0.005
+          },
+          "eps": {
+            "value": 0.08675300635695501
+          },
+          "cuda": {
+            "value": 0
+          },
+          "norm": {
+            "value": "group"
+          },
+          "orth": {
+            "value": "householder"
+          },
+          "seed": {
+            "value": 42
+          },
+          "temp": {
+            "value": 0.5988821818668073
+          },
+          "alpha": {
+            "value": 0.5
+          },
+          "model": {
+            "value": "DiagSheaf"
+          },
+          "_wandb": {
+            "value": {
+              "m": [],
+              "t": {
+                "1": [
+                  1,
+                  5,
+                  53,
+                  77
+                ],
+                "2": [
+                  1,
+                  5,
+                  53,
+                  77
+                ],
+                "3": [
+                  2,
+                  14,
+                  16,
+                  61
+                ],
+                "4": "3.12.13",
+                "5": "0.26.0",
+                "10": [
+                  19
+                ],
+                "12": "0.26.0",
+                "13": "linux-x86_64"
+              },
+              "cli_version": "0.26.0",
+              "python_version": "3.12.13"
+            }
+          },
+          "add_hp": {
+            "value": false
+          },
+          "add_lp": {
+            "value": false
+          },
+          "epochs": {
+            "value": 1000
+          },
+          "layers": {
+            "value": 1
+          },
+          "linear": {
+            "value": false
+          },
+          "dataset": {
+            "value": "citeseer"
+          },
+          "dropout": {
+            "value": 0.25
+          },
+          "eval_lr": {
+            "value": 0.05
+          },
+          "sk_iter": {
+            "value": 3
+          },
+          "use_act": {
+            "value": true
+          },
+          "patience": {
+            "value": 50
+          },
+          "proj_dim": {
+            "value": 64
+          },
+          "sheaf_lr": {
+            "value": 0.0001
+          },
+          "use_proj": {
+            "value": true
+          },
+          "drop_prob": {
+            "value": 0.2
+          },
+          "lambda_mi": {
+            "value": 0
+          },
+          "loss_type": {
+            "value": "swav"
+          },
+          "quot_temp": {
+            "value": 0.1
+          },
+          "sheaf_act": {
+            "value": "tanh"
+          },
+          "eval_steps": {
+            "value": 2000
+          },
+          "normalised": {
+            "value": true
+          },
+          "quot_weight": {
+            "value": 0.001
+          },
+          "run_visuals": {
+            "value": false
+          },
+          "sheaf_decay": {
+            "value": 0.1
+          },
+          "edge_weights": {
+            "value": true
+          },
+          "eval_on_proj": {
+            "value": false
+          },
+          "lambda_ortho": {
+            "value": 0
+          },
+          "left_weights": {
+            "value": true
+          },
+          "markov_times": {
+            "value": [
+              1,
+              2,
+              4,
+              8
+            ]
+          },
+          "restore_best": {
+            "value": true
+          },
+          "weight_decay": {
+            "value": 0.03
+          },
+          "deterministic": {
+            "value": false
+          },
+          "eval_patience": {
+            "value": 100
+          },
+          "input_dropout": {
+            "value": 0.25
+          },
+          "lambda_map_id": {
+            "value": 0
+          },
+          "markov_weight": {
+            "value": 0.3254851453689423
+          },
+          "right_weights": {
+            "value": true
+          },
+          "run_mid_probe": {
+            "value": false
+          },
+          "second_linear": {
+            "value": false
+          },
+          "view_strategy": {
+            "value": "post_sheaf_transport"
+          },
+          "checkpoint_dir": {
+            "value": "pkl"
+          },
+          "deg_normalised": {
+            "value": false
+          },
+          "detach_summary": {
+            "value": false
+          },
+          "num_prototypes": {
+            "value": 256
+          },
+          "quot_normalize": {
+            "value": "fro"
+          },
+          "sparse_learner": {
+            "value": false
+          },
+          "target_rep_dim": {
+            "value": null
+          },
+          "asymmetric_mode": {
+            "value": "symmetric"
+          },
+          "early_stop_loss": {
+            "value": true
+          },
+          "hidden_channels": {
+            "value": 64
+          },
+          "markov_adj_norm": {
+            "value": "row"
+          },
+          "proj_hidden_dim": {
+            "value": 512
+          },
+          "quot_symmetrize": {
+            "value": true
+          },
+          "view_align_temp": {
+            "value": 0.07
+          },
+          "disable_sinkhorn": {
+            "value": false
+          },
+          "quot_remove_diag": {
+            "value": false
+          },
+          "early_stop_warmup": {
+            "value": 100
+          },
+          "eval_weight_decay": {
+            "value": 0.0001
+          },
+          "markov_self_loops": {
+            "value": true
+          },
+          "run_theory_audits": {
+            "value": false
+          },
+          "sheaf_sinkhorn_mu": {
+            "value": 0.1
+          },
+          "view_align_weight": {
+            "value": 0
+          },
+          "markov_target_only": {
+            "value": false
+          },
+          "swav_target_source": {
+            "value": "local"
+          },
+          "use_sheaf_sinkhorn": {
+            "value": false
+          },
+          "use_view_alignment": {
+            "value": false
+          },
+          "prototype_kappa_max": {
+            "value": 30
+          },
+          "prototype_kappa_min": {
+            "value": 0.1
+          },
+          "prototype_use_prior": {
+            "value": false
+          },
+          "run_expensive_evals": {
+            "value": false
+          },
+          "sheaf_sinkhorn_mode": {
+            "value": "graph"
+          },
+          "swav_reverse_weight": {
+            "value": 0.9153589500705864
+          },
+          "view_align_momentum": {
+            "value": 0.999
+          },
+          "early_stop_min_delta": {
+            "value": 0.0001
+          },
+          "markov_time_sampling": {
+            "value": "none"
+          },
+          "proto_transport_temp": {
+            "value": 0.1
+          },
+          "prototype_kappa_init": {
+            "value": 1
+          },
+          "prototype_score_type": {
+            "value": "linear"
+          },
+          "sheaf_sinkhorn_iters": {
+            "value": 3
+          },
+          "use_markov_stability": {
+            "value": true
+          },
+          "proto_connection_temp": {
+            "value": 0.1
+          },
+          "wide_feature_ablation": {
+            "value": false
+          },
+          "markov_fast_cumulative": {
+            "value": true
+          },
+          "markov_update_interval": {
+            "value": 1
+          },
+          "proto_transport_detach": {
+            "value": true
+          },
+          "quot_assignment_source": {
+            "value": "local"
+          },
+          "markov_interval_rescale": {
+            "value": true
+          },
+          "proto_connection_weight": {
+            "value": 0
+          },
+          "sheaf_sinkhorn_adj_norm": {
+            "value": "row"
+          },
+          "swav_target_mixed_alpha": {
+            "value": 0.5
+          },
+          "sheaf_sinkhorn_self_loops": {
+            "value": true
+          },
+          "view_align_num_prototypes": {
+            "value": 12
+          },
+          "no_markov_interval_rescale": {
+            "value": false
+          },
+          "use_proto_connection_laplacian": {
+            "value": false
+          },
+          "proto_connection_assignment_temp": {
+            "value": 0.1
+          },
+          "proto_connection_detach_transport": {
+            "value": true
+          }
+    },
+    "amazon-ratings": {
+        "d": {
+            "value": 4
+        },
+        "lr": {
+            "value": 0.0039963960594218
+        },
+        "eps": {
+            "value": 0.05
+        },
+        "cuda": {
+            "value": 0
+        },
+        "norm": {
+            "value": "group"
+        },
+        "orth": {
+            "value": "householder"
+        },
+        "temp": {
+            "value": 0.11884566642522804
+        },
+        "alpha": {
+            "value": 0.5
+        },
+        "model": {
+            "value": "DiagSheaf"
+        },
+        "_wandb": {
+            "value": {
+            "m": [],
+            "t": {
+                "1": [
+                1,
+                5,
+                53,
+                77
+                ],
+                "2": [
+                1,
+                5,
+                53,
+                77
+                ],
+                "3": [
+                2,
+                14,
+                16,
+                61
+                ],
+                "4": "3.12.13",
+                "5": "0.27.0",
+                "10": [
+                19
+                ],
+                "12": "0.27.0",
+                "13": "linux-x86_64"
+            },
+            "cli_version": "0.27.0",
+            "python_version": "3.12.13"
+            }
+        },
+        "add_hp": {
+            "value": false
+        },
+        "add_lp": {
+            "value": false
+        },
+        "dgi_on": {
+            "value": "view1"
+        },
+        "epochs": {
+            "value": 1000
+        },
+        "layers": {
+            "value": 4
+        },
+        "linear": {
+            "value": false
+        },
+        "pe_dim": {
+            "value": 16
+        },
+        "dataset": {
+            "value": "amazon-ratings"
+        },
+        "dropout": {
+            "value": 0.16072801838903986
+        },
+        "sk_iter": {
+            "value": 3
+        },
+        "use_act": {
+            "value": true
+        },
+        "use_dgi": {
+            "value": true
+        },
+        "use_lpe": {
+            "value": false
+        },
+        "patience": {
+            "value": 10
+        },
+        "proj_dim": {
+            "value": 256
+        },
+        "use_proj": {
+            "value": true
+        },
+        "use_rwpe": {
+            "value": false
+        },
+        "drop_prob": {
+            "value": 0.2
+        },
+        "ema_decay": {
+            "value": 0.99
+        },
+        "lambda_mi": {
+            "value": 0
+        },
+        "loss_type": {
+            "value": "swav"
+        },
+        "sheaf_act": {
+            "value": "tanh"
+        },
+        "dgi_weight": {
+            "value": 0.7026350277891303
+        },
+        "early_stop": {
+            "value": false
+        },
+        "match_loss": {
+            "value": "ce"
+        },
+        "normalised": {
+            "value": true
+        },
+        "run_visuals": {
+            "value": false
+        },
+        "sheaf_decay": {
+            "value": 0.00002340283735004031
+        },
+        "temperature": {
+            "value": 0.15694875798844318
+        },
+        "edge_weights": {
+            "value": true
+        },
+        "eval_on_proj": {
+            "value": false
+        },
+        "lambda_ortho": {
+            "value": 0
+        },
+        "left_weights": {
+            "value": true
+        },
+        "restore_best": {
+            "value": true
+        },
+        "weight_decay": {
+            "value": 0.0001081862609139212
+        },
+        "deterministic": {
+            "value": false
+        },
+        "input_dropout": {
+            "value": 0.4348798604427679
+        },
+        "lambda_map_id": {
+            "value": 0
+        },
+        "right_weights": {
+            "value": true
+        },
+        "run_mid_probe": {
+            "value": false
+        },
+        "second_linear": {
+            "value": false
+        },
+        "view_strategy": {
+            "value": "post_sheaf_transport"
+        },
+        "deg_normalised": {
+            "value": false
+        },
+        "detach_summary": {
+            "value": true
+        },
+        "num_prototypes": {
+            "value": 91
+        },
+        "sparse_learner": {
+            "value": false
+        },
+        "target_rep_dim": {
+            "value": null
+        },
+        "asymmetric_mode": {
+            "value": "symmetric"
+        },
+        "hidden_channels": {
+            "value": 256
+        },
+        "proj_hidden_dim": {
+            "value": 256
+        },
+        "use_ricci_prior": {
+            "value": false
+        },
+        "disable_sinkhorn": {
+            "value": false
+        },
+        "early_stop_metric": {
+            "value": "proxy"
+        },
+        "early_stop_warmup": {
+            "value": 100
+        },
+        "run_theory_audits": {
+            "value": false
+        },
+        "use_target_encoder": {
+            "value": false
+        },
+        "early_stop_interval": {
+            "value": 25
+        },
+        "run_expensive_evals": {
+            "value": false
+        },
+        "early_stop_min_delta": {
+            "value": 0.0001
+        },
+        "wide_feature_ablation": {
+            "value": false
+        }
+    },
+    "pubmed": {
+      "d": {
+        "value": 8
+      },
+      "lr": {
+        "value": 0.001
+      },
+      "eps": {
+        "value": 0.037494914488260214
+      },
+      "cuda": {
+        "value": 0
+      },
+      "norm": {
+        "value": "group"
+      },
+      "orth": {
+        "value": "householder"
+      },
+      "seed": {
+        "value": 42
+      },
+      "temp": {
+        "value": 0.5237301671482453
+      },
+      "alpha": {
+        "value": 0.5
+      },
+      "model": {
+        "value": "DiagSheaf"
+      },
+      "_wandb": {
+        "value": {
+          "m": [],
+          "t": {
+            "1": [
+              1,
+              5,
+              53,
+              77
+            ],
+            "2": [
+              1,
+              5,
+              53,
+              77
+            ],
+            "3": [
+              2,
+              14,
+              16,
+              61
+            ],
+            "4": "3.12.13",
+            "5": "0.27.0",
+            "10": [
+              19
+            ],
+            "12": "0.27.0",
+            "13": "linux-x86_64"
+          },
+          "cli_version": "0.27.0",
+          "python_version": "3.12.13"
+        }
+      },
+      "add_hp": {
+        "value": false
+      },
+      "add_lp": {
+        "value": false
+      },
+      "epochs": {
+        "value": 1000
+      },
+      "layers": {
+        "value": 1
+      },
+      "linear": {
+        "value": false
+      },
+      "dataset": {
+        "value": "pubmed"
+      },
+      "dropout": {
+        "value": 0.25
+      },
+      "eval_lr": {
+        "value": 0.05
+      },
+      "sk_iter": {
+        "value": 3
+      },
+      "use_act": {
+        "value": true
+      },
+      "patience": {
+        "value": 50
+      },
+      "proj_dim": {
+        "value": 32
+      },
+      "sheaf_lr": {
+        "value": 0.005
+      },
+      "use_proj": {
+        "value": true
+      },
+      "drop_prob": {
+        "value": 0.2
+      },
+      "lambda_mi": {
+        "value": 0
+      },
+      "loss_type": {
+        "value": "swav"
+      },
+      "quot_temp": {
+        "value": 0.1
+      },
+      "sheaf_act": {
+        "value": "tanh"
+      },
+      "eval_steps": {
+        "value": 2000
+      },
+      "normalised": {
+        "value": true
+      },
+      "quot_weight": {
+        "value": 0.001
+      },
+      "run_visuals": {
+        "value": false
+      },
+      "sheaf_decay": {
+        "value": 0.0001
+      },
+      "edge_weights": {
+        "value": true
+      },
+      "eval_on_proj": {
+        "value": false
+      },
+      "lambda_ortho": {
+        "value": 0
+      },
+      "left_weights": {
+        "value": true
+      },
+      "markov_times": {
+        "value": [
+          1,
+          2
+        ]
+      },
+      "restore_best": {
+        "value": true
+      },
+      "weight_decay": {
+        "value": 0.0005
+      },
+      "deterministic": {
+        "value": false
+      },
+      "eval_patience": {
+        "value": 100
+      },
+      "input_dropout": {
+        "value": 0.4
+      },
+      "lambda_map_id": {
+        "value": 0
+      },
+      "markov_weight": {
+        "value": 0.3891736616629121
+      },
+      "right_weights": {
+        "value": true
+      },
+      "run_mid_probe": {
+        "value": false
+      },
+      "second_linear": {
+        "value": false
+      },
+      "view_strategy": {
+        "value": "post_sheaf_transport"
+      },
+      "checkpoint_dir": {
+        "value": "pkl"
+      },
+      "deg_normalised": {
+        "value": false
+      },
+      "detach_summary": {
+        "value": false
+      },
+      "num_prototypes": {
+        "value": 64
+      },
+      "quot_normalize": {
+        "value": "fro"
+      },
+      "sparse_learner": {
+        "value": false
+      },
+      "target_rep_dim": {
+        "value": null
+      },
+      "asymmetric_mode": {
+        "value": "symmetric"
+      },
+      "early_stop_loss": {
+        "value": true
+      },
+      "hidden_channels": {
+        "value": 64
+      },
+      "markov_adj_norm": {
+        "value": "row"
+      },
+      "proj_hidden_dim": {
+        "value": 512
+      },
+      "quot_symmetrize": {
+        "value": true
+      },
+      "view_align_temp": {
+        "value": 0.07
+      },
+      "disable_sinkhorn": {
+        "value": false
+      },
+      "quot_remove_diag": {
+        "value": false
+      },
+      "early_stop_warmup": {
+        "value": 100
+      },
+      "eval_weight_decay": {
+        "value": 0.0001
+      },
+      "markov_self_loops": {
+        "value": true
+      },
+      "run_theory_audits": {
+        "value": false
+      },
+      "sheaf_sinkhorn_mu": {
+        "value": 0.1
+      },
+      "view_align_weight": {
+        "value": 0
+      },
+      "markov_target_only": {
+        "value": false
+      },
+      "swav_target_source": {
+        "value": "local"
+      },
+      "use_sheaf_sinkhorn": {
+        "value": false
+      },
+      "use_view_alignment": {
+        "value": false
+      },
+      "prototype_kappa_max": {
+        "value": 30
+      },
+      "prototype_kappa_min": {
+        "value": 0.1
+      },
+      "prototype_use_prior": {
+        "value": false
+      },
+      "run_expensive_evals": {
+        "value": false
+      },
+      "sheaf_sinkhorn_mode": {
+        "value": "graph"
+      },
+      "swav_reverse_weight": {
+        "value": 0.9945817279877168
+      },
+      "view_align_momentum": {
+        "value": 0.999
+      },
+      "early_stop_min_delta": {
+        "value": 0.0001
+      },
+      "markov_time_sampling": {
+        "value": "none"
+      },
+      "proto_transport_temp": {
+        "value": 0.1
+      },
+      "prototype_kappa_init": {
+        "value": 1
+      },
+      "prototype_score_type": {
+        "value": "linear"
+      },
+      "sheaf_sinkhorn_iters": {
+        "value": 3
+      },
+      "use_markov_stability": {
+        "value": true
+      },
+      "proto_connection_temp": {
+        "value": 0.1
+      },
+      "wide_feature_ablation": {
+        "value": false
+      },
+      "markov_fast_cumulative": {
+        "value": true
+      },
+      "markov_update_interval": {
+        "value": 1
+      },
+      "proto_transport_detach": {
+        "value": true
+      },
+      "quot_assignment_source": {
+        "value": "local"
+      },
+      "markov_interval_rescale": {
+        "value": true
+      },
+      "proto_connection_weight": {
+        "value": 0
+      },
+      "sheaf_sinkhorn_adj_norm": {
+        "value": "row"
+      },
+      "swav_target_mixed_alpha": {
+        "value": 0.5
+      },
+      "sheaf_sinkhorn_self_loops": {
+        "value": true
+      },
+      "view_align_num_prototypes": {
+        "value": 12
+      },
+      "no_markov_interval_rescale": {
+        "value": false
+      },
+      "use_proto_connection_laplacian": {
+        "value": false
+      },
+      "proto_connection_assignment_temp": {
+        "value": 0.1
+      },
+      "proto_connection_detach_transport": {
+        "value": true
+      }
+    },
+    "minesweeper": {
+        "d": 8,
+        "lr": 0.0017138628441668055,
+        "eps": 0.02867178917352483,
+        "cuda": 0,
+        "norm": "group",
+        "orth": "householder",
+        "temp": 0.06197259398910029,
+        "model": "DiagSheaf",
+        "add_hp": false,
+        "add_lp": false,
+        "epochs": 500,
+        "layers": 6,
+        "linear": false,
+        "dataset": "minesweeper",
+        "dropout": 0.2739728950264124,
+        "sk_iter": 3,
+        "use_act": true,
+        "patience": 2000,
+        "proj_dim": 256,
+        "use_proj": true,
+        "drop_prob": 0.2,
+        "loss_type": "swav",
+        "sheaf_act": "tanh",
+        "normalised": true,
+        "run_visuals": false,
+        "sheaf_decay": 3.3947875285780445e-05,
+        "edge_weights": true,
+        "lambda_ortho": 0,
+        "left_weights": true,
+        "weight_decay": 0.00021116962696188647,
+        "input_dropout": 0.314134189233181,
+        "right_weights": true,
+        "run_mid_probe": false,
+        "second_linear": false,
+        "view_strategy": "post_sheaf_transport",
+        "deg_normalised": false,
+        "num_prototypes": 16,
+        "sparse_learner": false,
+        "asymmetric_mode": "symmetric",
+        "hidden_channels": 128,
+        "proj_hidden_dim": 1024,
+        "disable_sinkhorn": false,
+        "run_theory_audits": false,
+        "run_expensive_evals": false,
+        "wide_feature_ablation": false
+    },
+    "amazon-photo": {
+        "d": 1,
+        "lr": 0.014285042592719038,
+        "eps": 0.038401225783933006,
+        "cuda": 0,
+        "norm": "group",
+        "orth": "householder",
+        "temp": 0.15601740723925372,
+        "model": "DiagSheaf",
+        "add_hp": false,
+        "add_lp": false,
+        "epochs": 500,
+        "layers": 2,
+        "linear": false,
+        "dataset": "amazon-photo",
+        "dropout": 0.3370167914846982,
+        "sk_iter": 3,
+        "use_act": true,
+        "patience": 2000,
+        "proj_dim": 256,
+        "use_proj": true,
+        "drop_prob": 0.2,
+        "loss_type": "swav",
+        "sheaf_act": "tanh",
+        "normalised": true,
+        "run_visuals": false,
+        "sheaf_decay": 0.0004357732772416787,
+        "edge_weights": true,
+        "lambda_ortho": 0,
+        "left_weights": true,
+        "weight_decay": 0.00023890557125425416,
+        "input_dropout": 0.4222705327018613,
+        "right_weights": true,
+        "run_mid_probe": false,
+        "second_linear": false,
+        "view_strategy": "post_sheaf_transport",
+        "deg_normalised": false,
+        "num_prototypes": 81,
+        "sparse_learner": false,
+        "asymmetric_mode": "symmetric",
+        "hidden_channels": 64,
+        "proj_hidden_dim": 512,
+        "disable_sinkhorn": false,
+        "run_theory_audits": false,
+        "run_expensive_evals": false,
+        "wide_feature_ablation": false
+    },
+    "questions": {
+        "d": 4,
+        "lr": 0.000958479891695158,
+        "eps": 0.014396392598268136,
+        "cuda": 0,
+        "norm": "group",
+        "orth": "householder",
+        "temp": 0.24447524986406363,
+        "model": "DiagSheaf",
+        "add_hp": false,
+        "add_lp": false,
+        "epochs": 500,
+        "layers": 2,
+        "linear": false,
+        "dataset": "questions",
+        "dropout": 0.5576163906191797,
+        "sk_iter": 3,
+        "use_act": true,
+        "patience": 2000,
+        "proj_dim": 64,
+        "use_proj": true,
+        "drop_prob": 0.2,
+        "loss_type": "swav",
+        "sheaf_act": "tanh",
+        "normalised": true,
+        "run_visuals": false,
+        "sheaf_decay": 2.6236197550829825e-05,
+        "edge_weights": true,
+        "lambda_ortho": 0,
+        "left_weights": true,
+        "weight_decay": 0.00016429823056234312,
+        "input_dropout": 0.3529433583333451,
+        "right_weights": true,
+        "run_mid_probe": false,
+        "second_linear": false,
+        "view_strategy": "post_sheaf_transport",
+        "deg_normalised": false,
+        "num_prototypes": 43,
+        "sparse_learner": false,
+        "asymmetric_mode": "symmetric",
+        "hidden_channels": 256,
+        "proj_hidden_dim": 256,
+        "disable_sinkhorn": false,
+        "run_theory_audits": false,
+        "run_expensive_evals": false,
+        "wide_feature_ablation": false
+    },
+    "amazon-computer": {
+        "d": 8,
+        "lr": 0.005479305013743668,
+        "eps": 0.02385708633007627,
+        "cuda": 0,
+        "norm": "group",
+        "orth": "householder",
+        "temp": 0.1487407502417146,
+        "model": "DiagSheaf",
+        "add_hp": false,
+        "add_lp": false,
+        "epochs": 500,
+        "layers": 1,
+        "linear": false,
+        "dataset": "amazon-computer",
+        "dropout": 0.1397307187364619,
+        "sk_iter": 3,
+        "use_act": true,
+        "patience": 2000,
+        "proj_dim": 128,
+        "use_proj": true,
+        "drop_prob": 0.2,
+        "loss_type": "swav",
+        "sheaf_act": "tanh",
+        "normalised": true,
+        "run_visuals": false,
+        "sheaf_decay": 0.0001600263717443671,
+        "edge_weights": true,
+        "lambda_ortho": 0,
+        "left_weights": true,
+        "weight_decay": 6.976827750122225e-05,
+        "input_dropout": 0.4186284503489978,
+        "right_weights": true,
+        "run_mid_probe": false,
+        "second_linear": false,
+        "view_strategy": "post_sheaf_transport",
+        "deg_normalised": false,
+        "num_prototypes": 71,
+        "sparse_learner": false,
+        "asymmetric_mode": "symmetric",
+        "hidden_channels": 256,
+        "proj_hidden_dim": 512,
+        "disable_sinkhorn": false,
+        "run_theory_audits": false,
+        "run_expensive_evals": false,
+        "wide_feature_ablation": false
+    },
+    "chameleon-filtered": {
+        "d": 2,
+        "lr": 0.0010137583417322376,
+        "eps": 0.07092650451096127,
+        "cuda": 0,
+        "norm": "group",
+        "orth": "householder",
+        "temp": 0.24110118445097975,
+        "model": "DiagSheaf",
+        "add_hp": false,
+        "add_lp": false,
+        "epochs": 500,
+        "layers": 2,
+        "linear": false,
+        "dataset": "chameleon-filtered",
+        "dropout": 0.4705582651942792,
+        "sk_iter": 3,
+        "use_act": true,
+        "patience": 2000,
+        "proj_dim": 256,
+        "use_proj": true,
+        "drop_prob": 0.2,
+        "loss_type": "swav",
+        "sheaf_act": "tanh",
+        "normalised": true,
+        "run_visuals": false,
+        "sheaf_decay": 2.4891323895408296e-05,
+        "edge_weights": true,
+        "lambda_ortho": 0,
+        "left_weights": true,
+        "weight_decay": 0.00030186142473801624,
+        "input_dropout": 0.1502843644947215,
+        "right_weights": true,
+        "run_mid_probe": false,
+        "second_linear": false,
+        "view_strategy": "post_sheaf_transport",
+        "deg_normalised": false,
+        "num_prototypes": 96,
+        "sparse_learner": false,
+        "asymmetric_mode": "symmetric",
+        "hidden_channels": 32,
+        "proj_hidden_dim": 1024,
+        "disable_sinkhorn": false,
+        "run_theory_audits": false,
+        "run_expensive_evals": false,
+        "wide_feature_ablation": false
+    },
+    "coauthor-physics": {
+        "d": 8,
+        "lr": 0.0005499588121559866,
+        "eps": 0.07332008085562253,
+        "cuda": 0,
+        "norm": "group",
+        "orth": "householder",
+        "temp": 0.20234417539414065,
+        "model": "DiagSheaf",
+        "add_hp": false,
+        "add_lp": false,
+        "epochs": 500,
+        "layers": 1,
+        "linear": false,
+        "dataset": "coauthor-physics",
+        "dropout": 0.4653731597364218,
+        "sk_iter": 3,
+        "use_act": true,
+        "patience": 2000,
+        "proj_dim": 256,
+        "use_proj": true,
+        "drop_prob": 0.2,
+        "loss_type": "swav",
+        "sheaf_act": "tanh",
+        "normalised": true,
+        "run_visuals": false,
+        "sheaf_decay": 3.583240542613002e-05,
+        "edge_weights": true,
+        "lambda_ortho": 0,
+        "left_weights": true,
+        "weight_decay": 0.00028062643542167345,
+        "input_dropout": 0.48918165941793473,
+        "right_weights": true,
+        "run_mid_probe": false,
+        "second_linear": false,
+        "view_strategy": "post_sheaf_transport",
+        "deg_normalised": false,
+        "num_prototypes": 90,
+        "sparse_learner": false,
+        "asymmetric_mode": "symmetric",
+        "hidden_channels": 128,
+        "proj_hidden_dim": 512,
+        "disable_sinkhorn": false,
+        "run_theory_audits": false,
+        "run_expensive_evals": false,
+        "wide_feature_ablation": false
+    },
+    "squirrel-filtered": {
+        "d": 8,
+        "lr": 0.002436673081240239,
+        "eps": 0.07369628598590543,
+        "cuda": 0,
+        "norm": "group",
+        "orth": "householder",
+        "temp": 0.1960369852546186,
+        "model": "DiagSheaf",
+        "add_hp": false,
+        "add_lp": false,
+        "epochs": 500,
+        "layers": 1,
+        "linear": false,
+        "dataset": "squirrel-filtered",
+        "dropout": 0.43548943345826985,
+        "sk_iter": 3,
+        "use_act": true,
+        "patience": 2000,
+        "proj_dim": 128,
+        "use_proj": true,
+        "drop_prob": 0.2,
+        "loss_type": "swav",
+        "sheaf_act": "tanh",
+        "normalised": true,
+        "run_visuals": false,
+        "sheaf_decay": 0.0007392239800971363,
+        "edge_weights": true,
+        "lambda_ortho": 0,
+        "left_weights": true,
+        "weight_decay": 0.0009643510316174336,
+        "input_dropout": 0.07464169904938572,
+        "right_weights": true,
+        "run_mid_probe": false,
+        "second_linear": false,
+        "view_strategy": "post_sheaf_transport",
+        "deg_normalised": false,
+        "num_prototypes": 123,
+        "sparse_learner": false,
+        "asymmetric_mode": "symmetric",
+        "hidden_channels": 32,
+        "proj_hidden_dim": 256,
+        "disable_sinkhorn": false,
+        "run_theory_audits": false,
+        "run_expensive_evals": false,
+        "wide_feature_ablation": false
+    },
+    "tolokers": {
+        "d": 8,
+        "lr": 0.0032634411779636596,
+        "eps": 0.03956801583106311,
+        "cuda": 0,
+        "norm": "group",
+        "orth": "householder",
+        "temp": 0.07619785885977126,
+        "model": "DiagSheaf",
+        "add_hp": false,
+        "add_lp": false,
+        "epochs": 500,
+        "layers": 3,
+        "linear": false,
+        "dataset": "tolokers",
+        "dropout": 0.5568128929430078,
+        "sk_iter": 3,
+        "use_act": true,
+        "patience": 2000,
+        "proj_dim": 256,
+        "use_proj": true,
+        "drop_prob": 0.2,
+        "loss_type": "swav",
+        "sheaf_act": "tanh",
+        "normalised": true,
+        "run_visuals": false,
+        "sheaf_decay": 1.5537650123211356e-05,
+        "edge_weights": true,
+        "lambda_ortho": 0,
+        "left_weights": true,
+        "weight_decay": 1.2145868633060787e-05,
+        "input_dropout": 0.056585528034729216,
+        "right_weights": true,
+        "run_mid_probe": false,
+        "second_linear": false,
+        "view_strategy": "post_sheaf_transport",
+        "deg_normalised": false,
+        "num_prototypes": 94,
+        "sparse_learner": false,
+        "asymmetric_mode": "symmetric",
+        "hidden_channels": 64,
+        "proj_hidden_dim": 1024,
+        "disable_sinkhorn": false,
+        "run_theory_audits": false,
+        "run_expensive_evals": false,
+        "wide_feature_ablation": false
+    },
+    "coauthor-cs": {
+        "d": 6,
+        "lr": 0.0017813171528906014,
+        "eps": 0.01378831503911694,
+        "cuda": 0,
+        "norm": "group",
+        "orth": "householder",
+        "temp": 0.22170996590235215,
+        "model": "DiagSheaf",
+        "add_hp": false,
+        "add_lp": false,
+        "epochs": 500,
+        "layers": 1,
+        "linear": false,
+        "dataset": "coauthor-cs",
+        "dropout": 0.5393724383138782,
+        "sk_iter": 3,
+        "use_act": true,
+        "patience": 2000,
+        "proj_dim": 128,
+        "use_proj": true,
+        "drop_prob": 0.2,
+        "loss_type": "swav",
+        "sheaf_act": "tanh",
+        "normalised": true,
+        "run_visuals": false,
+        "sheaf_decay": 4.8949910186427104e-05,
+        "edge_weights": true,
+        "lambda_ortho": 0,
+        "left_weights": true,
+        "weight_decay": 3.224191030808601e-05,
+        "input_dropout": 0.40803129316293135,
+        "right_weights": true,
+        "run_mid_probe": false,
+        "second_linear": false,
+        "view_strategy": "post_sheaf_transport",
+        "deg_normalised": false,
+        "num_prototypes": 56,
+        "sparse_learner": false,
+        "asymmetric_mode": "symmetric",
+        "hidden_channels": 256,
+        "proj_hidden_dim": 512,
+        "disable_sinkhorn": false,
+        "run_theory_audits": false,
+        "run_expensive_evals": false,
+        "wide_feature_ablation": false
+    }
+}
